@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CompanyPortal</string>
+    <string name="service">Select service: <font color='#FF0000'>*</font></string>
+    <string name="subService">Select Subservice: <font color='#FF0000'>*</font></string>
+    <string name="productType">Select Product Type: <font color='#FF0000'>*</font></string>
+    <string name="brand">Select Brand: <font color='#FF0000'>*</font></string>
+    <string name="productName">Product Name: <font color='#FF0000'>*</font></string>
+    <string name="shortDesc">Short Description: <font color='#FF0000'>*</font></string>
+    <string name="longDesc">Long Description: <font color='#FF0000'>*</font></string>
+    <string name="price">Price: <font color='#FF0000'>*</font></string>
+    <string name="quantity">Quantity: <font color='#FF0000'>*</font></string>
+    <string name="image">Add Images: <font color='#FF0000'>*</font></string>
+
+
+
+
+
+</resources>
