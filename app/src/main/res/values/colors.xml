@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="putatoeBackground">#B2EBF2</color>
     <color name="putatoeGreenColor">#027e8b</color>
+    <color name="btn_clr">#1970B5</color>
 </resources>
