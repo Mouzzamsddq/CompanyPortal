@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.HomeFragment">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="Company Portal"
+        app:titleTextColor="@color/white"
+        android:background="@color/putatoeGreenColor"
+        android:id="@+id/toolbar"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_height="match_parent">
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="10dp"
+          android:orientation="vertical">
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:padding="10dp"
+              android:id="@+id/addProductsLayout"
+              android:layout_marginTop="10dp"
+              android:background="@drawable/login_border"
+              android:layout_height="wrap_content">
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Add Products"
+                  android:layout_centerVertical="true"
+                  android:textColor="@color/putatoeGreenColor"
+                  android:textStyle="bold"
+                  android:textSize="16sp"/>
+
+              <ImageView
+                  android:layout_width="40dp"
+                  android:layout_height="40dp"
+                  android:layout_centerVertical="true"
+                  android:layout_alignParentEnd="true"
+                  android:src="@drawable/right_arrow_icon"/>
+
+
+
+          </RelativeLayout>
+
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:padding="10dp"
+              android:layout_marginTop="10dp"
+              android:background="@drawable/login_border"
+              android:layout_height="wrap_content">
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="My Services"
+                  android:layout_centerVertical="true"
+                  android:textColor="@color/putatoeGreenColor"
+                  android:textStyle="bold"
+                  android:textSize="16sp"/>
+
+              <ImageView
+                  android:layout_width="40dp"
+                  android:layout_height="40dp"
+                  android:layout_centerVertical="true"
+                  android:layout_alignParentEnd="true"
+                  android:src="@drawable/right_arrow_icon"/>
+
+
+
+          </RelativeLayout>
+
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:padding="10dp"
+              android:layout_marginTop="10dp"
+              android:background="@drawable/login_border"
+              android:layout_height="wrap_content">
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="My Wallet"
+                  android:layout_centerVertical="true"
+                  android:textColor="@color/putatoeGreenColor"
+                  android:textStyle="bold"
+                  android:textSize="16sp"/>
+
+              <ImageView
+                  android:layout_width="40dp"
+                  android:layout_height="40dp"
+                  android:layout_centerVertical="true"
+                  android:layout_alignParentEnd="true"
+                  android:src="@drawable/right_arrow_icon"/>
+
+
+
+          </RelativeLayout>
+
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:padding="10dp"
+              android:layout_marginTop="10dp"
+              android:background="@drawable/login_border"
+              android:layout_height="wrap_content">
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="My Address"
+                  android:layout_centerVertical="true"
+                  android:textColor="@color/putatoeGreenColor"
+                  android:textStyle="bold"
+                  android:textSize="16sp"/>
+
+              <ImageView
+                  android:layout_width="40dp"
+                  android:layout_height="40dp"
+                  android:layout_centerVertical="true"
+                  android:layout_alignParentEnd="true"
+                  android:src="@drawable/right_arrow_icon"/>
+
+
+
+          </RelativeLayout>
+
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:padding="10dp"
+              android:layout_marginTop="10dp"
+              android:background="@drawable/login_border"
+              android:layout_height="wrap_content">
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="My Bank Accounts"
+                  android:layout_centerVertical="true"
+                  android:textColor="@color/putatoeGreenColor"
+                  android:textStyle="bold"
+                  android:textSize="16sp"/>
+
+              <ImageView
+                  android:layout_width="40dp"
+                  android:layout_height="40dp"
+                  android:layout_centerVertical="true"
+                  android:layout_alignParentEnd="true"
+                  android:src="@drawable/right_arrow_icon"/>
+
+
+
+          </RelativeLayout>
+
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:padding="10dp"
+              android:layout_marginTop="10dp"
+              android:background="@drawable/login_border"
+              android:layout_height="wrap_content">
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Offers"
+                  android:layout_centerVertical="true"
+                  android:textColor="@color/putatoeGreenColor"
+                  android:textStyle="bold"
+                  android:textSize="16sp"/>
+
+              <ImageView
+                  android:layout_width="40dp"
+                  android:layout_height="40dp"
+                  android:layout_centerVertical="true"
+                  android:layout_alignParentEnd="true"
+                  android:src="@drawable/right_arrow_icon"/>
+
+
+
+          </RelativeLayout>
+
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:padding="10dp"
+              android:layout_marginTop="10dp"
+              android:background="@drawable/login_border"
+              android:layout_height="wrap_content">
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Contact Us"
+                  android:layout_centerVertical="true"
+                  android:textColor="@color/putatoeGreenColor"
+                  android:textStyle="bold"
+                  android:textSize="16sp"/>
+
+              <ImageView
+                  android:layout_width="40dp"
+                  android:layout_height="40dp"
+                  android:layout_centerVertical="true"
+                  android:layout_alignParentEnd="true"
+                  android:src="@drawable/right_arrow_icon"/>
+
+
+
+          </RelativeLayout>
+
+
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:padding="10dp"
+              android:layout_marginTop="10dp"
+              android:background="@drawable/login_border"
+              android:layout_height="wrap_content">
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Log out"
+                  android:layout_centerVertical="true"
+                  android:textColor="@color/putatoeGreenColor"
+                  android:textStyle="bold"
+                  android:textSize="16sp"/>
+
+              <ImageView
+                  android:layout_width="40dp"
+                  android:layout_height="40dp"
+                  android:layout_centerVertical="true"
+                  android:layout_alignParentEnd="true"
+                  android:src="@drawable/right_arrow_icon"/>
+
+
+
+          </RelativeLayout>
+
+
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:padding="10dp"
+              android:layout_marginTop="10dp"
+              android:background="@drawable/login_border"
+              android:layout_height="wrap_content">
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Accounts Setting"
+                  android:layout_centerVertical="true"
+                  android:textColor="@color/putatoeGreenColor"
+                  android:textStyle="bold"
+                  android:textSize="16sp"/>
+
+              <ImageView
+                  android:layout_width="40dp"
+                  android:layout_height="40dp"
+                  android:layout_centerVertical="true"
+                  android:layout_alignParentEnd="true"
+                  android:src="@drawable/right_arrow_icon"/>
+
+
+
+          </RelativeLayout>
+
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:padding="10dp"
+              android:layout_marginTop="10dp"
+              android:background="@drawable/login_border"
+              android:layout_height="wrap_content">
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Accounts Setting"
+                  android:layout_centerVertical="true"
+                  android:textColor="@color/putatoeGreenColor"
+                  android:textStyle="bold"
+                  android:textSize="16sp"/>
+
+              <ImageView
+                  android:layout_width="40dp"
+                  android:layout_height="40dp"
+                  android:layout_centerVertical="true"
+                  android:layout_alignParentEnd="true"
+                  android:src="@drawable/right_arrow_icon"/>
+
+
+
+          </RelativeLayout>
+
+
+      </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>

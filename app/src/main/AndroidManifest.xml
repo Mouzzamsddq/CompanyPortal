@@ -11,6 +11,7 @@
         android:theme="@style/Theme.CompanyPortal">
         <activity android:name=".HomeActivity"></activity>
         <activity android:name=".LoginActivity" />
+        <activity android:name=".AddProductsActivity"/>
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,7 +19,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

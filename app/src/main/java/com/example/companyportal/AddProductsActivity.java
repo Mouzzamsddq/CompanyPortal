@@ -8,7 +8,7 @@ import android.widget.Spinner;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class AddProductsActivity extends AppCompatActivity {
 
     //take toolbar object
     private Toolbar toolbar;
